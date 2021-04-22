@@ -139,3 +139,9 @@ function mouseReleased(){
   slingShot.fly();
 }
 
+function keyPressed(){
+  if(keyCode===32){
+    slingShot.attach(polygon.body);
+  }
+}
+
