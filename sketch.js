@@ -74,6 +74,10 @@ function draw() {
   textSize(20);
   fill("lightyellow");
   text("Drag the Hexagonal stone and release it, to launch it towards the Blocks",140,25);
+  textSize(20);
+  fill("lightyellow");
+  text("Press Space to Play again!",140,360)
+  
   
 
   ground.display();
